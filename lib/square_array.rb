@@ -4,4 +4,5 @@ def square_array(array)
   length = array.length
   length.times do |index|
     new_array.push(square(array[index]))
+  end
 end
